@@ -125,7 +125,7 @@ function runServer(databaseUrl, port = PORT) {
       if (err) {
         return reject(err);
       }
-    );
+    });
   });
 }
 
